@@ -80,92 +80,84 @@ export const Hero: React.FC<HeroProps> = ({ profile }) => {
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                Currently Working in Medical Retail
+                Currently Working at Guna Medicals
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                5+ Years Hands-on Experience
+                6+ Years Hands-on Experience
               </span>
             </div>
           </div>
 
-          {/* Right Column: Visual Showcase & Highlight Card */}
-          <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-full max-w-md bg-white rounded-3xl p-6 sm:p-8 shadow-pharma border border-slate-200">
-              {/* Header Box */}
-              <div className="flex items-start justify-between pb-6 border-b border-slate-100">
-                <div className="flex items-center gap-3.5">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-700 via-emerald-600 to-teal-500 flex items-center justify-center text-white shadow-md shadow-emerald-600/30">
-                    <Pill className="w-8 h-8 -rotate-45" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-extrabold text-slate-900">
+          {/* Right Column: Professional Pharmacist Portrait Showcase */}
+          <div className="lg:col-span-5 flex justify-center items-center">
+            <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm xl:max-w-md group">
+              {/* Luxury Ambient Glow */}
+              <div className="absolute -inset-2 sm:-inset-4 bg-gradient-to-tr from-emerald-500/30 via-teal-400/20 to-emerald-200/20 rounded-[2.5rem] blur-2xl opacity-75 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+
+              {/* Decorative Accent Glows */}
+              <div className="absolute -top-3 -right-3 w-20 h-20 bg-emerald-100/60 rounded-full blur-xl pointer-events-none" />
+              <div className="absolute -bottom-3 -left-3 w-24 h-24 bg-teal-100/60 rounded-full blur-xl pointer-events-none" />
+
+              {/* Card Container with Elegant White & Emerald Frame */}
+              <div className="relative bg-white/95 backdrop-blur-xs rounded-[2rem] p-2.5 sm:p-3 shadow-2xl shadow-emerald-950/15 border-2 border-white ring-1 ring-emerald-500/20">
+                {/* Photo Frame */}
+                <div className="relative rounded-[1.6rem] overflow-hidden aspect-[4/5] bg-slate-100 shadow-inner">
+                  <img
+                    src={profile.profileImage || '/images/gokul-pharmacist.jpg'}
+                    alt={`${profile.name} - Professional Pharmacist`}
+                    className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                    loading="eager"
+                  />
+
+                  {/* Gentle gradient scrim at the base */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent pointer-events-none" />
+
+                  {/* Name & Title inside the photo overlay */}
+                  <div className="absolute bottom-4 left-4 right-4 text-white z-10 pointer-events-none">
+                    <p className="text-lg sm:text-xl font-heading font-extrabold text-white drop-shadow-md">
                       {profile.name}
-                    </h3>
-                    <p className="text-xs text-emerald-700 font-bold uppercase tracking-wider">
-                      {profile.education}
                     </p>
-                    <p className="text-xs text-slate-500 font-medium">
-                      {profile.location}
+                    <p className="text-xs font-semibold text-emerald-200 drop-shadow-sm flex items-center gap-1.5 mt-0.5">
+                      <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
+                      <span>{profile.education}</span>
                     </p>
                   </div>
                 </div>
-                <span className="px-2.5 py-1 rounded-md bg-emerald-100 text-[11px] font-bold text-emerald-800">
-                  5 Yrs Exp
-                </span>
-              </div>
 
-              {/* 3 Core Strengths */}
-              <div className="py-6 space-y-3.5">
-                <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
-                  <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <Pill className="w-4 h-4" />
+                {/* Floating Badge 1: Top Right - Active Pharmacist Status */}
+                <div className="absolute top-5 right-5 sm:top-6 sm:right-6 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-emerald-200 shadow-lg transition-transform group-hover:scale-105">
+                  <span className="relative flex h-2.5 w-2.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-600"></span>
+                  </span>
+                  <span className="text-[11px] font-bold text-emerald-950 tracking-tight">
+                    Active Retail Pharmacist
+                  </span>
+                </div>
+
+                {/* Floating Badge 2: Floating Experience Badge Bottom-Left */}
+                <div className="absolute -bottom-4 -left-3 sm:-left-5 z-20 bg-white/95 backdrop-blur-md rounded-2xl px-3.5 py-2.5 shadow-xl border border-slate-200/90 flex items-center gap-2.5 transition-transform group-hover:-translate-y-1">
+                  <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white flex items-center justify-center shadow-md shadow-emerald-600/30">
+                    <HeartPulse className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-xs font-bold text-slate-800">
-                      Medicine Knowledge & Branding
-                    </h4>
-                    <p className="text-[11px] text-slate-500">
-                      Hands-on recognition of leading brands, generics, and dosage forms.
+                    <p className="text-xs font-extrabold text-slate-900 leading-tight">
+                      6+ Years Experience
+                    </p>
+                    <p className="text-[10px] text-emerald-700 font-semibold leading-tight mt-0.5">
+                      Guna Medicals (Since 2020)
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
-                  <div className="w-8 h-8 rounded-lg bg-teal-100 text-teal-700 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <HeartPulse className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <h4 className="text-xs font-bold text-slate-800">
-                      Customer Service & Care
-                    </h4>
-                    <p className="text-[11px] text-slate-500">
-                      Clear communication on prescription timings and supportive customer guidance.
-                    </p>
-                  </div>
+                {/* Floating Badge 3: Bottom-Right Health Care Tag */}
+                <div className="absolute -bottom-3 -right-2 sm:-right-4 z-20 bg-gradient-to-r from-emerald-700 to-teal-700 text-white rounded-xl px-3 py-1.5 shadow-lg flex items-center gap-1.5 transition-transform group-hover:-translate-y-1">
+                  <Pill className="w-3.5 h-3.5 text-emerald-200 -rotate-45" />
+                  <span className="text-[11px] font-bold tracking-tight">
+                    Healthcare & Care
+                  </span>
                 </div>
-
-                <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
-                  <div className="w-8 h-8 rounded-lg bg-green-100 text-green-700 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <ShieldCheck className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <h4 className="text-xs font-bold text-slate-800">
-                      Inventory & Expiry Control
-                    </h4>
-                    <p className="text-[11px] text-slate-500">
-                      Systematic stock organization and first-expiry first-out (FEFO) protocols.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Bottom Quote Note */}
-              <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span className="text-slate-500 font-medium">Tagline</span>
-                <span className="font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
-                  {profile.tagline}
-                </span>
               </div>
             </div>
           </div>

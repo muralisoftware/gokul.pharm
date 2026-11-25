@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-              {profile.brandName} — D.Pharm professional (completed 2020) with five years of hands-on practical retail pharmacy experience in Tamil Nadu, India. Currently working.
+              Gokul — D.Pharm professional (completed 2020 at Vinayaka Missions Research Foundation) with six years of hands-on practical retail pharmacy experience at Guna Medicals in Tamil Nadu, India.
             </p>
           </div>
 

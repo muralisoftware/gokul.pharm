@@ -28,7 +28,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
       } else if (rawProgress < 58) {
         setStatusText('Verifying D.Pharm (2020) Credentials...');
       } else if (rawProgress < 86) {
-        setStatusText('Loading 5+ Years Medical Shop Experience...');
+        setStatusText('Loading 6+ Years Medical Shop Experience at Guna Medicals...');
       } else {
         setStatusText('System Ready • Welcome to Gokul .A Portfolio');
       }
@@ -180,7 +180,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({
         {/* 8. Verified Badge at Base */}
         <div className="mt-8 flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/20 text-[10px] text-emerald-300">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          <span>Completed D.Pharm (2020) • 5+ Years Active Practice</span>
+          <span>Completed D.Pharm (2020) • 6+ Years Active Practice</span>
         </div>
       </div>
     </div>

@@ -228,7 +228,7 @@ export const HeroAnimatedBackground: React.FC = () => {
         style={{ animationDuration: '8s', animationDelay: '1.5s' }}
       >
         <HeartPulse className="w-4 h-4 text-emerald-600 animate-pulse" />
-        <span className="text-xs font-bold text-emerald-900">5+ Years Medical Experience</span>
+        <span className="text-xs font-bold text-emerald-900">6+ Years Medical Experience</span>
       </div>
 
       {/* Badge 4: Bottom Right Floating Activity Pill */}

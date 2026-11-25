@@ -19,6 +19,7 @@ export interface PersonalInfo {
   phone: string;
   linkedin: string;
   whatsapp: string;
+  profileImage?: string;
 }
 
 export interface MetricItem {

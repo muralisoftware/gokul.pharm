@@ -31,7 +31,7 @@ export const Skills: React.FC = () => {
             Professional Capabilities & Practical Skills
           </h2>
           <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Cultivated over five years of active retail counter practice and rigorous D.Pharm coursework.
+            Cultivated over six years of active retail counter practice at Guna Medicals and rigorous D.Pharm coursework.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export const Skills: React.FC = () => {
 
               <div className="mt-6 pt-4 border-t border-slate-100 flex items-center gap-1.5 text-xs text-slate-400">
                 <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Validated through 5 years of daily pharmacy operations & D.Pharm studies</span>
+                <span>Validated through 6 years of daily pharmacy operations at Guna Medicals & D.Pharm studies</span>
               </div>
             </div>
           ))}

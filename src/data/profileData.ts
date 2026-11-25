@@ -13,16 +13,16 @@ export const initialProfileData: PersonalInfo = {
   professionalTitle: 'D.Pharm Professional',
   education: 'Diploma in Pharmacy (D.Pharm) – Completed 2020',
   currentYear: 'Completed in 2020 (Currently Working)',
-  collegeName: '[Your Pharmacy College / Institute, Tamil Nadu]',
-  universityName: '[Directorate of Medical Education / Pharmacy Board, Tamil Nadu]',
-  experienceYears: 5,
-  medicalShopName: '[Retail Medical & Pharmacy Shop, Tamil Nadu]',
+  collegeName: 'Vinayaka Missions Research Foundation (Deemed to be University)',
+  universityName: 'Vinayaka Missions Research Foundation (Deemed to be University)',
+  experienceYears: 6,
+  medicalShopName: 'Guna Medicals',
   location: 'Tamil Nadu, India',
-  brandName: 'Gokul Pharma Portfolio',
+  brandName: 'Gokul',
   tagline: 'Knowledge in Pharmacy. Care for Everyone.',
   heroHeadline: 'Knowledge in Pharmacy. Commitment to Better Healthcare.',
   introBio:
-    'I am Gokul .A, a D.Pharm professional who completed my Diploma in Pharmacy in 2020. I am currently working with 5+ years of practical retail medical shop experience in Tamil Nadu, combining solid pharmaceutical knowledge with daily medicine dispensing, inventory management, and patient care.',
+    'I am Gokul .A, a D.Pharm professional who completed my Diploma in Pharmacy in 2020 at Vinayaka Missions Research Foundation. I am currently working with 6+ years of practical retail medical shop experience at Guna Medicals in Tamil Nadu (joined in 2020), combining solid pharmaceutical knowledge with daily medicine dispensing, inventory management, and patient care.',
   vision:
     'To deliver accurate dispensing, uphold patient safety, and advance community healthcare awareness through practical skills and continuous learning.',
   coreValues: [
@@ -32,32 +32,33 @@ export const initialProfileData: PersonalInfo = {
     'Professional Ethics',
     'Customer Care',
   ],
-  email: 'gokul.pharma@gmail.com',
+  email: 'gokulgokulgokul35081@gmail.com',
   phone: '+91 98765 43210',
   linkedin: 'https://linkedin.com/in/gokul-pharmacy',
   whatsapp: '+919876543210',
+  profileImage: '/images/gokul-pharmacist.jpg',
 };
 
 export const metricsData: MetricItem[] = [
   {
     id: 'exp',
-    value: '05+',
+    value: '06+',
     label: 'Years of Experience',
-    subtext: 'Practical medical retail & store operations',
+    subtext: 'Active retail practice at Guna Medicals (2020 – Present)',
     iconName: 'Clock',
   },
   {
     id: 'edu',
     value: '2020',
     label: 'D.Pharm Completed',
-    subtext: 'Diploma in Pharmacy • Batch of 2020',
+    subtext: 'Vinayaka Missions Research Foundation',
     iconName: 'GraduationCap',
   },
   {
     id: 'loc',
     value: 'Working',
     label: 'Current Status',
-    subtext: 'Active Retail Pharmacy Professional',
+    subtext: 'Guna Medicals • Active Practice',
     iconName: 'HeartPulse',
   },
   {
@@ -121,11 +122,11 @@ export const academicInterests: AcademicInterest[] = [
 ];
 
 export const experienceDetails: ExperienceDetail = {
-  title: 'Medical Shop Professional Experience',
-  shopName: 'Community Medical Retail Store',
-  duration: '5 Years Practical Experience',
+  title: 'Medical Shop Professional Experience — Guna Medicals',
+  shopName: 'Guna Medicals',
+  duration: '6 Years Practical Experience (Joined 2020)',
   overview:
-    'Five years of hands-on retail pharmacy practice in Tamil Nadu, managing daily medicine dispensing, inventory stock, and customer healthcare guidance.',
+    'Six years of hands-on retail pharmacy practice at Guna Medicals in Tamil Nadu (joined in 2020), managing daily medicine dispensing, inventory stock, and customer healthcare guidance.',
   responsibilities: [
     'Medicine identification and systematic shelf organization.',
     'Brand vs. generic medicine equivalent matching.',
@@ -143,7 +144,7 @@ export const experienceDetails: ExperienceDetail = {
     'Strong ethical commitment to patient health and safe dispensing.',
   ],
   careerGoal:
-    'To build on my 2020 D.Pharm qualification and 5 years of active medical shop experience, continuously growing as a trusted healthcare professional.',
+    'To build on my 2020 D.Pharm qualification from Vinayaka Missions Research Foundation and 6 years of active retail experience at Guna Medicals, continuously growing as a trusted healthcare professional.',
 };
 
 export const skillsCategories: SkillCategory[] = [

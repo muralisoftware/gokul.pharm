@@ -23,7 +23,7 @@ export const Experience: React.FC<ExperienceProps> = ({ profile }) => {
             Medical Shop Experience
           </div>
           <h2 className="text-3xl sm:text-4xl font-heading font-extrabold text-slate-900 tracking-tight">
-            Practical Medical Store Experience — 5 Years
+            Practical Medical Store Experience — 6 Years
           </h2>
           <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
             Hands-on exposure to pharmaceutical retail operations, medicine classification, inventory management, and customer care.
@@ -49,7 +49,7 @@ export const Experience: React.FC<ExperienceProps> = ({ profile }) => {
 
             <div className="flex items-center gap-2 self-start sm:self-auto bg-emerald-900/60 border border-emerald-400/40 px-3.5 py-1.5 rounded-full text-xs font-bold text-emerald-200">
               <Clock className="w-3.5 h-3.5" />
-              <span>5 Years (Practical Retail Experience)</span>
+              <span>6 Years (Practical Retail Experience • Joined 2020)</span>
             </div>
           </div>
 
@@ -114,7 +114,7 @@ export const Experience: React.FC<ExperienceProps> = ({ profile }) => {
             </div>
 
             <div className="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-              <span>Retail Experience: 5 Years</span>
+              <span>Retail Experience: 6 Years</span>
               <span className="text-emerald-400 font-bold">Dedicated Growth</span>
             </div>
           </div>

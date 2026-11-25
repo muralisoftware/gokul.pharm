@@ -36,7 +36,7 @@ export const About: React.FC<AboutProps> = ({ profile }) => {
             Bridging Retail Pharmacy Practice with Academic Sciences
           </h2>
           <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Combining formal D.Pharm coursework with five solid years of practical retail medical shop operations.
+            Combining formal D.Pharm coursework from Vinayaka Missions Research Foundation with six solid years of practical retail medical shop operations at Guna Medicals.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export const About: React.FC<AboutProps> = ({ profile }) => {
                 Hello, I'm {profile.name}
               </h3>
               <p className="text-slate-600 leading-relaxed">
-                I am a dedicated pharmacy professional who <strong>completed my Diploma in Pharmacy (D.Pharm) in 2020</strong>. I am <strong>currently working with 5+ years of practical retail experience</strong> in a busy medical shop in Tamil Nadu.
+                I am a dedicated pharmacy professional who <strong>completed my Diploma in Pharmacy (D.Pharm) in 2020 at Vinayaka Missions Research Foundation</strong>. I am <strong>currently working with 6+ years of practical retail experience at Guna Medicals</strong> in Tamil Nadu (joined in 2020).
               </p>
             </div>
 

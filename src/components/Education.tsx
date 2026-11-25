@@ -46,7 +46,7 @@ export const Education: React.FC<EducationProps> = ({ profile }) => {
             Academic Background & Pharmacy Qualifications
           </h2>
           <p className="mt-3 text-base sm:text-lg text-emerald-100/90 leading-relaxed">
-            Completed formal D.Pharm education in 2020, reinforcing 5+ years of active retail medical shop experience with solid scientific foundations.
+            Completed formal D.Pharm education in 2020 at Vinayaka Missions Research Foundation, reinforcing 6+ years of active retail medical shop experience at Guna Medicals with solid scientific foundations.
           </p>
         </div>
 
